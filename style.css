@@ -1,0 +1,46 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+#first{
+    width: 33%;
+    height: 100%;
+    background-color: green;
+}
+#middle{
+    min-width: 400px;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#pizza{
+    max-width: 60%;
+    max-height: 60%;
+}
+#para{
+    padding-top: 10%;
+    text-align: center;
+}
+#recipe{
+    padding-top: 50px;
+    margin: 0 auto;
+    list-style: none;
+}
+#last{
+    width: 33%;
+    height:100%;
+    background-color: red;
+}
