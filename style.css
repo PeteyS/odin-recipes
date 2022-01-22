@@ -33,14 +33,48 @@ html,body{
 #para{
     padding-top: 10%;
     text-align: center;
+    font-family:Italiana;
+    font-weight: 1000;
 }
-#recipe{
-    padding-top: 50px;
-    margin: 0 auto;
+#index{
+    padding-top: 100px;
     list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    text-align: center;
+    padding-top: 30px;
+}
+#listed{
+    margin: auto;
+    padding-right: 30px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+}
+#home{
+    font-size: larger;
+    text-decoration: underline;
+}
+#home:hover{
+    color: red;
+    font-size: x-large;
 }
 #last{
     width: 33%;
     height:100%;
     background-color: red;
+}
+#recipe{
+    text-align: left; 
+    background-color: palegoldenrod;
+    overflow: scroll;
+    border-style: double;
 }
